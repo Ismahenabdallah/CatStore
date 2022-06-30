@@ -29,7 +29,7 @@ i{
 span{
     position:absolute;
     top:10%;
-   right:4.5%;
+    right:20%;
  
     font-size:10px;
 }
@@ -37,7 +37,7 @@ span{
 }
 @media only screen and (max-width: 767px) {
   span {
-    left:10%;
+    left:13%;
    
    
   
@@ -46,9 +46,9 @@ span{
 @media only screen and (max-width: 900px) {
     span {
        
-       top:80% ;
+       top:74% ;
      
-   right:88%;
+      right:88%;
      
      
     }
