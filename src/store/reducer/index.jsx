@@ -29,7 +29,8 @@ export default function cartReduer(state, action){
        
 
         case CLEAR_CART: {
-            const new_state = {...state};
+            let new_state = [...state];
+          
             // eslint-disable-next-line no-const-assign
             new_state = [];
             return new_state;
