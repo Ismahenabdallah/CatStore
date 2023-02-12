@@ -6,7 +6,7 @@ function CartItem( props ) {
     const {product} = item;
    
     return (
-
+ 
 
         <div className="card w-75">
             <img src={product.image} className="" alt="" />

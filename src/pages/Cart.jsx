@@ -10,7 +10,7 @@ const Cart = (Props) => {
     Props.clearCart();
     alert('We recieved your order, and we are working on it.');
 };
-   
+    
    
     return ( 
         <Container className=''>

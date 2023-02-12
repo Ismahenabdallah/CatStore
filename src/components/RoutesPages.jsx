@@ -12,7 +12,7 @@ export default function RoutesPages() {
 
         <Route path='/' exact element={<Products />} />
         <Route path='/cart' exact element={<Cart />} />
-        
+        <Route>404 Not Found!</Route>
         <Route path="/products/:id" exact element={<Details />} />
         </Routes>
     </div>
